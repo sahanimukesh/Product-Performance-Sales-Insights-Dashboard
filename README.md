@@ -1,103 +1,53 @@
-Product Sales Analysis Dashboard
+* Product Sales Analysis Dashboard
+
 Overview
 
-This project provides a detailed analysis of product sales using an interactive Excel dashboard. It consolidates raw sales data—such as product names, regions, quantities sold, sales amounts, and dates—into a structured, visual format. The goal is to offer clear insights into sales performance, top contributors, product demand, and revenue trends to support data-driven business decisions.
+An interactive Excel dashboard designed to analyze product sales performance across regions, products, salespersons, and time periods. The project transforms raw sales data into clear insights to support fast and informed decision-making.
 
-Features
-Key Performance Indicators (KPIs)
+* Key Features
 
-Total sales quantity
+Dynamic KPIs: Total Sales, Revenue, Unique Products, Transactions
 
-Total sales amount (revenue)
+Top Performance: Best-selling products, top salespersons, highest-revenue regions
 
-Number of unique products
+Analytical Views: Sales by product, region, and time trends
 
-Total number of transactions
+Interactive Filters: Slicers for product, region, salesperson, and date
 
-Performance Highlights
-
-Top-selling product
-
-Best-performing salesperson
-
-Highest-revenue region
-
-Analytical Views
-
-Sales by product
-
-Sales by region
-
-Time-based sales trends (daily, monthly, etc.)
-
-Salesperson contribution analysis
-
-Dashboard Interactivity
-
-Dynamic charts and pivot tables
-
-Slicers for product, region, salesperson, and date
-
-Automated calculations and updated visuals based on selected filters
-
-Tools and Techniques
+* Tools Used
 
 Microsoft Excel
 
 Pivot Tables & Pivot Charts
 
-Slicers & Timelines
+Slicers, Timelines, Conditional Formatting
 
-Data Cleaning & Standardization
+Functions: SUMIFS, COUNTIFS, XLOOKUP, IFERROR
 
-Functions: SUMIFS, COUNTIFS, XLOOKUP, IFERROR, etc.
+* Project Structure
+/dataset        - Raw sales data
+/dashboard      - Final Excel dashboard
+README.md
 
-Conditional Formatting
+* Insights Delivered
 
-Project Structure
-|-- dataset/
-|     |-- sales_data.xlsx
-|
-|-- dashboard/
-|     |-- Product_Sales_Dashboard.xlsx
-|
-|-- README.md
+Clear identification of top products and sales performers
 
-Insights You Can Derive
+Regional sales comparisons
 
-Identification of top-performing products
+Time-based sales patterns and demand trends
 
-Comparative sales performance across regions
+Overall revenue and sales health overview
 
-Evaluation of salespersons and their revenue contribution
+* How to Use
 
-Understanding customer purchasing patterns over time
+Open the dashboard file in Excel.
 
-Overall business performance and revenue health
+Apply filters to explore specific views.
 
-How to Use
-
-Download and open the dashboard Excel file.
-
-Use slicers to filter by date, region, product, or salesperson.
-
-Review KPIs and visual charts that dynamically update.
-
-Use insights to support reporting and strategic planning.
-
-Future Improvements
-
-Integration with Power BI for advanced visualization
-
-Automated data refresh using Python
-
-Inclusion of forecasting models for sales prediction
-
-Additional drill-down layers for product categories or customer segments
+Review KPIs and charts for actionable insights.
 
 Author
 
 Mukesh Sahani
-Data Analyst | Excel | SQL | Python | Power BI
-For queries or feedback, feel free to reach out.
-
+Data Analyst – Excel | SQL | Python | Power BI
